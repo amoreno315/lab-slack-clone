@@ -1,0 +1,50 @@
+/* ---- reset ---- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+div, section {
+  border: 1px solid red;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+}
+/* Layaot */
+.container {
+  margin: 0 20px;
+}
+/* Header */
+header .nav-bar ul{
+  display: none;
+  /* o visibility:hidden*/
+  
+}
+header .slack-logo{
+  width: 110px; 
+  float: left;
+  margin: 10px 0;
+}
+header .nav-bar .burger-menu-logo{
+  width: 30px;
+  float: right;
+  margin: 14px;
+}
+header.header{
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  box-shadow: 0 1px 1px rgba(0,0,0,.15);
+}
+main {
+  margin-top: 60px;
+}
